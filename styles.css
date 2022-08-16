@@ -1,0 +1,123 @@
+:root {
+    --colorNavbar:#f463cd;
+}
+
+body {
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    background-color: var(--colorNavbar) !important;
+}
+
+#card {
+    margin: 0px auto;
+    border: 0.5px;
+}
+
+.card-body {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.paddingNavbar {
+    padding: 50px 0px;
+}
+
+.portfolioImg {
+    
+    border-radius: 8%;
+    border: var(--colorNavbar) outset 1px;
+        
+       
+}
+
+hr {
+    margin: 1rem auto;
+    width: 85%;
+}
+
+.centrarTexto {
+    text-align: center;
+}
+
+div > form {
+    width: 60%;
+    margin: 0px auto;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+#mensaje:focus {   
+  border-color: rgba(230, 93, 184, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(240, 108, 255);
+  outline: 0 none;
+}
+
+input,
+textarea {
+    background-color: #f256ed !important;
+}
+
+#mensaje {
+    resize: none;
+}
+
+.linksNavbar {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    height: 25px;
+    width: 25px;
+    margin: 0px 5px;
+}
+
+.descripcion {
+    width: 70%;
+    margin: 0px auto;
+}
+
+#padreCard {
+    padding-top: 110px;
+    padding-bottom: 50px;
+    background: #fc93e7;
+}
+
+#portfolio {
+    background: #ff69e1;
+}
+
+#aboutMe {
+    background: #fc93e7;
+}
+
+#contacto {
+    background: #ff69e1;
+}
+
+#datos {
+    background: #fc93e7;
+}
+
+#footer {
+    color: #ff69e1;
+}
+
+@media screen and (max-width: 480px) {
+    .portfolioImg {
+        width: 100%;
+        margin: 0px auto;
+        display: flex;
+    }
+
+    .descripcion {
+        width: 100%;
+    }
+}

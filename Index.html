@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="href=https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap" rel="stylesheet">
+    <link rel="icon" href="VM.ico">
+    <link rel="stylesheet" href="styles.css"> <!-- styles.css-->
+    <title>Valeria Moreno</title>
+</head>
+<body>
+  <header id="top">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#top">Valeria Moreno</a>
+
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav linksNavbar">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <div id="padreCard"> 
+<div id="card" class="card centrarTexto" style="width: 18rem">
+<img src="VM.PNG" class="card-img-top" alt="Valeria Moreno" title="Valeria Moreno">
+<div class="card-body bg-dark">
+    <h5 class="card-title text-light">
+        <strong>Valeria Moreno</strong>
+    </h5>
+    <p class="card-tect text-light">
+        <i>Estudiante IT</i>
+    </p>
+</div>
+</div>
+
+    </div>
+    <div class="paddingNavbar" id="portfolio">
+        <h2 class="centrarTexto">PORTFOLIO</h2>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col-md">
+              <h4 class="fs-5 centrarTexto">Proyecto 1</h4>
+              <a href="" target="_blank"><img src="" alt="" title="" class=""></a>
+            </div>
+            <div class="col-md">
+              <h4 class="fs-5 centrarTexto">Proyecto 2</h4>
+              <a href="" target="_blank">
+                <img
+                  src=""
+                  alt=""
+                  title=""
+                  class=""
+                />
+              </a>
+            </div>
+            <div class="col-md">
+              <h4 class="fs-5 centrarTexto">Proyecto 3</h4>
+              <a href="/ target="_blank">
+                <img src="" alt="" title="" class="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="aboutMe" class="paddingNavbar">
+        <h2 class="centrarTexto">SOBRE MI</h2>
+        <hr>
+        <p class="centrarTexto lead fs-5 descripcion">
+          <i>Soy Valeria Moreno, vivo en Vicente López, egresada en ciencias económicas y actualmente incursionando en el desarrollo web, en Sistemas de programación: Python y en Bases de datos: SQL y Power BI.</i>
+        </p>
+      </div>
+      <div id="contacto" class="paddingNavbar">
+        <div>
+          <h2 class="centrarTexto">CONTACTO</h2>
+          <hr>
+  
+          <form action="https://formspree.io/f/xrgjwgrl" method="POST">
+            <div class="mb-3 formulario">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input name="Nombre" type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required="">
+            </div>
+            <div class="mb-3 formulario">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input name="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su Email" required="">
+            </div>
+            <div class="mb-3 formulario">
+              <label for="telefono" class="form-label">Teléfono</label>
+              <input name="Celular" type="number" class="form-control" id="telefono" placeholder="Ingrese su número de celular" required="">
+            </div>
+            <div class="mb-3 formulario">
+              <label for="mensaje" class="form-label">Deje su mensaje</label>
+              <textarea name="Mensaje" class="form-control" id="mensaje" rows="3" required=""></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning botonEnviar">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div id="datos">
+        <div class="container paddingNavbar">
+          <div class="row">
+            <div class="col-sm-6 centrarTexto">
+              <h5>Ubicación</h5>
+              <p>Vicente López <br>Buenos Aires, Argentina</p>
+            </div>
+            <div class="col-sm-6 centrarTexto">
+              <h5>Redes Sociales</h5>
+              <a href="https://www.linkedin.com/in/danila-valeria-m-a4017b67" target="_blank"><img class="logo" src="linkeding.PNG" alt="linkedin"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer" class="card-footer centrarTexto bg-dark">
+        <p class="mb-0 p-2">Copyright © - Valeria Moreno - 2022</p>
+      </div>
+      <!------SCRIPTS------>
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
